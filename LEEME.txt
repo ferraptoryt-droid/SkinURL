@@ -1,0 +1,5 @@
+OPCION A (sin instalar nada): subi esta carpeta a un repositorio nuevo de GitHub (github.com/new, arrastrar los archivos).
+  Pestana "Actions" -> "Compilar jar" -> cuando termine, abajo en "Artifacts" bajas skinurl-jar (adentro esta el .jar).
+OPCION B (local): instala JDK 17 y Gradle 8.1.1, abri una terminal en esta carpeta y corre:  gradle build
+  El jar queda en build/libs/skinurl-1.20.1-forge-1.0.0.jar
+Ponelo en la carpeta mods del servidor y de cada jugador (Forge 1.20.1).

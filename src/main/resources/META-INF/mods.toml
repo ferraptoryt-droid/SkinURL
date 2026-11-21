@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="skinurl"
+version="${version}"
+displayName="Skin URL"
+description='''/skin <url> pone tu skin propia (URL de textures.minecraft.net, generada en mineskin.org). La ven todos, premium y no-premium. Va en servidor y jugadores.'''
+[[dependencies.skinurl]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"

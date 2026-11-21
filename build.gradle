@@ -1,0 +1,7 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '[6.0,6.2)' }
+group = 'com.serie.skinurl'; version = '1.0.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+minecraft { mappings channel: 'official', version: '1.20.1' }
+dependencies { minecraft 'net.minecraftforge:forge:1.20.1-47.4.23' }
+jar { archiveBaseName = 'skinurl-1.20.1-forge'; finalizedBy 'reobfJar' }
+tasks.named('processResources') { filesMatching('META-INF/mods.toml') { expand(version: project.version) } }
